@@ -1,0 +1,26 @@
+{
+  "id": "e9ab254e-68c2-42a7-8a4c-86605662ab8a",
+  "name": "JobQueueAdvanced",
+  "publisher": "Default publisher",
+  "version": "1.0.0.0",
+  "brief": "",
+  "description": "",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "dependencies": [],
+  "screenshots": [],
+  "platform": "1.0.0.0",
+  "application": "18.0.0.0",
+  "idRanges": [
+    {
+      "from": 50244,
+      "to": 50249
+    }
+  ],
+  "contextSensitiveHelpUrl": "https://JobQueueAdvanced.com/help/",
+  "showMyCode": true,
+  "runtime": "7.0"
+}
