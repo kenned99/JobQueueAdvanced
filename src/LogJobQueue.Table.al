@@ -10,7 +10,7 @@ table 50244 "cor LogJobQueue"
         field(2; "cor Log Job Queue Status"; enum "cor Log Job Queue Status")
         {
         }
-        field(3; Description; Text[100])
+        field(3; Description; Text[250])
         {
         }
         field(4; "User ID"; Text[65])
@@ -22,11 +22,12 @@ table 50244 "cor LogJobQueue"
         field(6; "Expiration Date/Time"; DateTime)
         {
         }
-        field(7; "Error Message"; Text[100])
+        field(7; "Error Message"; Text[250])
         {
         }
         field(8; ID; Guid)
         {
+            TableRelation = "Job Queue Entry";
         }
     }
 
@@ -42,8 +43,16 @@ table 50244 "cor LogJobQueue"
         myInt: Integer;
 
     trigger OnInsert()
+    var
+        JobQueueEntry_loc: Record "Job Queue Entry";
     begin
+        JobQueueEntry_loc.SetRange(ID, ID);
+        //SetRange(ID, JobQueueEntry_loc.ID);
 
+        Description := JobQueueEntry_loc.Description;
+        "User ID" := JobQueueEntry_loc."User ID";
+        "Earliest Start Date/Time" := JobQueueEntry_loc."Earliest Start Date/Time";
+        "Expiration Date/Time" := JobQueueEntry_loc."Expiration Date/Time";
     end;
 
     trigger OnModify()
