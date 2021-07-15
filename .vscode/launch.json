@@ -9,13 +9,15 @@
             "server": "http://KURSUS-BC18:7049",
             "serverInstance": "BC",
             "authentication": "UserPassword",
-            "startupObjectId": 22,
+            "startupObjectId": 672,
             "startupObjectType": "Page",
             "breakOnError": true,
             "launchBrowser": true,
             "enableLongRunningSqlStatements": true,
             "enableSqlInformationDebugger": true,
             "tenant": "default"
+            //"schemaUpdateMode": "ForceSync"
+
         }
     ]
 }

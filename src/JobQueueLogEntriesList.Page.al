@@ -73,6 +73,11 @@ page 50244 "cor Job Queue Log Entries List"
                     ToolTip = 'Specifies the value of the User ID field';
                     ApplicationArea = All;
                 }
+                field("cor Log Job Queue Status"; "cor Log Job Queue Status")
+                {
+                    ToolTip = 'Specifies the value of the Status field';
+                    ApplicationArea = all;
+                }
             }
         }
     }

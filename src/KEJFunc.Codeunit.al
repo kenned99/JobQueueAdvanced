@@ -8,6 +8,11 @@ codeunit 50244 "cor KEJFunc"
         KEJFunc2_loc: Codeunit "cor KEJFunc2";
         sucsses: Boolean;
         JobQueueEntry_loc: Record "Job Queue Entry";
+        JobSubtaskLog_loc: Codeunit "cor JobSubtaskLog";
+        Status: Enum "cor Log Job Queue Status";
+        desc: Text;
+        Err: text;
+
     begin
         myInt_loc := 2 + 2;
 
@@ -21,12 +26,19 @@ codeunit 50244 "cor KEJFunc"
             sucsses := true;
 
         if sucsses then
-            KEJFunc2_loc.Run();
+            KEJFunc2_loc.Run(Rec);
 
-        if not sucsses then begin
+
+        status := Status::Error;
+        desc := 'Hej med dig';
+        Err := 'FEJL VED C50024';
+        JobSubtaskLog_loc.CreateLog(Rec, desc, Err, Status);
+
+
+        /*if not sucsses then begin
             JobQueueEntry_loc.Status := JobQueueEntry_loc.Status::Error;
             JobQueueEntry_loc.Insert(true);
-        end;
+        end;*/
 
     end;
 }

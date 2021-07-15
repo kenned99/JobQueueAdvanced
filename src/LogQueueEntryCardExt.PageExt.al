@@ -18,6 +18,18 @@ pageextension 50244 "cor LogQueueEntryCardExt" extends 673
                     JobQueueLogEntriesList_loc.Run();
                 end;
             }
+            action("cor kej func")
+            {
+                ApplicationArea = all;
+                Caption = 'kej func';
+
+                trigger OnAction();
+                var
+                    kejfunc: Codeunit "cor KEJFunc";
+                begin
+                    kejfunc.Run(Rec);
+                end;
+            }
         }
     }
 }
