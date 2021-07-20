@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="en-US" original="JobQueueAdvanced">
+    <body>
+      <group id="body">
+        <trans-unit id="Table 2344424720 - Field 2589131436 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>cor Log Job Queue Status</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table cor LogJobQueue - Field cor Log Job Queue Status - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2344424720 - Field 3461834954 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table cor LogJobQueue - Field Description - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2344424720 - Field 6461729 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Earliest Start Date/Time</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table cor LogJobQueue - Field Earliest Start Date/Time - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2344424720 - Field 883711285 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Entry No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table cor LogJobQueue - Field Entry No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2344424720 - Field 2852966117 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Error Message</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table cor LogJobQueue - Field Error Message - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2344424720 - Field 2295938017 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>ErrPreview</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table cor LogJobQueue - Field ErrPreview - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2344424720 - Field 958911823 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Expiration Date/Time</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table cor LogJobQueue - Field Expiration Date/Time - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2344424720 - Field 3641927271 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>ID</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table cor LogJobQueue - Field ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2344424720 - Field 2708250016 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>User ID</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table cor LogJobQueue - Field User ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 882577184 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Job Queue Log Entries Subtasks List</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page cor Job Queue Log Entries List - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 882577184 - Control 2445482498 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>General</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page cor Job Queue Log Entries List - Control General - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 882577184 - Control 3275631411 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Error Text</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page cor Job Queue Log Entries List - Control BlobTxtCAP - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 882577184 - Control 3275631411 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Full Error Text</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page cor Job Queue Log Entries List - Control BlobTxtCAP - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 882577184 - Control 2589131436 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Status field</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page cor Job Queue Log Entries List - Control cor Log Job Queue Status - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 882577184 - Control 3461834954 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Description field</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page cor Job Queue Log Entries List - Control Description - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 882577184 - Control 6461729 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Earliest Start Date/Time field</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page cor Job Queue Log Entries List - Control Earliest Start Date/Time - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 882577184 - Control 883711285 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Entry No. field</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page cor Job Queue Log Entries List - Control Entry No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 882577184 - Control 2295938017 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Error Message Preview</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page cor Job Queue Log Entries List - Control ErrPreview - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 882577184 - Control 958911823 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Expiration Date/Time field</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page cor Job Queue Log Entries List - Control Expiration Date/Time - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 882577184 - Control 3641927271 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the ID field</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page cor Job Queue Log Entries List - Control ID - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 882577184 - Control 577209412 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the SystemCreatedAt field</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page cor Job Queue Log Entries List - Control SystemCreatedAt - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 882577184 - Control 4000648066 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the SystemCreatedBy field</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page cor Job Queue Log Entries List - Control SystemCreatedBy - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 882577184 - Control 1367528460 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the SystemId field</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page cor Job Queue Log Entries List - Control SystemId - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 882577184 - Control 2453272523 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the SystemModifiedAt field</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page cor Job Queue Log Entries List - Control SystemModifiedAt - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 882577184 - Control 4085837753 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the SystemModifiedBy field</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page cor Job Queue Log Entries List - Control SystemModifiedBy - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 882577184 - Control 2708250016 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the User ID field</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page cor Job Queue Log Entries List - Control User ID - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 882577184 - Action 2093829056 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>TextEditor</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page cor Job Queue Log Entries List - Action TextEditor - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1230479342 - Action 2271310432 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2276662850">
+          <source>kej func</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension cor LogQueueEntryCardExt - Action cor kej func - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1230479342 - Action 3314528096 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2276662850">
+          <source>Subtasks Log</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension cor LogQueueEntryCardExt - Action cor Subtasks - Property Caption</note>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -23,14 +23,18 @@ table 50244 "cor LogJobQueue"
         field(6; "Expiration Date/Time"; DateTime)
         {
         }
-        field(7; "Error Message"; Text[2048])
+        field(7; "Error Message"; Blob)
         {
         }
         field(8; ID; Guid)
         {
             TableRelation = "Job Queue Entry";
         }
+        field(9; ErrPreview; Text[250])
+        {
+        }
     }
+
 
     keys
     {

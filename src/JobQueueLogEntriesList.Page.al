@@ -13,6 +13,7 @@ page 50244 "cor Job Queue Log Entries List"
         {
             repeater(General)
             {
+                Caption = 'General';
                 field("Entry No."; Rec."Entry No.")
                 {
                     ToolTip = 'Specifies the value of the Entry No. field';
@@ -33,9 +34,9 @@ page 50244 "cor Job Queue Log Entries List"
                     ToolTip = 'Specifies the value of the Earliest Start Date/Time field';
                     ApplicationArea = All;
                 }
-                field("Error Message"; Rec."Error Message")
+                field(ErrPreview; ErrPreview)
                 {
-                    ToolTip = 'Specifies the value of the Error Message field';
+                    Caption = 'Error Message Preview';
                     ApplicationArea = All;
                 }
                 field("Expiration Date/Time"; Rec."Expiration Date/Time")
@@ -78,7 +79,46 @@ page 50244 "cor Job Queue Log Entries List"
                     ToolTip = 'Specifies the value of the Status field';
                     ApplicationArea = all;
                 }
+                field(BlobTxtCAP; BlobTxt)
+                {
+                    Caption = 'Full Error Text';
+                    ToolTip = 'Specifies the value of the Error Text';
+
+                    ApplicationArea = all;
+                }
+            }
+        }
+
+    }
+    actions
+    {
+        area(Creation)
+        {
+            action(TextEditor)
+            {
+                ApplicationArea = all;
+                Caption = 'TextEditor';
+                trigger OnAction();
+                var
+                // kejfunc: Page 
+                begin
+                    //  kejfunc.Run(Rec);
+                    Message('daw');
+                end;
+
             }
         }
     }
+    trigger OnAfterGetRecord()
+    var
+        instream_loc: InStream;
+    begin
+        BlobTxt := '';
+        Rec.CalcFields("Error Message");
+        Rec."Error Message".CreateInStream(instream_loc);
+        InStream_loc.ReadText(BlobTxt);
+    end;
+
+    var
+        BlobTxt: Text;
 }
