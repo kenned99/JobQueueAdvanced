@@ -43,43 +43,4 @@ table 50244 "cor LogJobQueue"
             Clustered = true;
         }
     }
-
-    var
-        myInt: Integer;
-
-    trigger OnInsert()
-    var
-        JobQueueEntry_loc: Record "Job Queue Entry";
-        NoSeriesManagement_loc: Codeunit NoSeriesManagement;
-    begin
-        /*  JobQueueEntry_loc.SetRange(ID, ID);
-          //SetRange(ID, JobQueueEntry_loc.ID);
-
-          Description := JobQueueEntry_loc.Description;
-          "User ID" := JobQueueEntry_loc."User ID";
-          "Earliest Start Date/Time" := JobQueueEntry_loc."Earliest Start Date/Time";
-          "Expiration Date/Time" := JobQueueEntry_loc."Expiration Date/Time";
-
-        IF "Entry No." = '' THEN
-            "Entry No." := NoSeriesManagement_loc.GetNextNo('JOBSUBTASK', WORKDATE, TRUE);*/
-
-
-
-    end;
-
-    trigger OnModify()
-    begin
-
-    end;
-
-    trigger OnDelete()
-    begin
-
-    end;
-
-    trigger OnRename()
-    begin
-
-    end;
-
 }

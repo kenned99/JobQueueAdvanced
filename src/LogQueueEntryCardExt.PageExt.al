@@ -8,11 +8,12 @@ pageextension 50244 "cor LogQueueEntryCardExt" extends 673
             {
                 ApplicationArea = all;
                 Caption = 'Subtasks Log';
+                Image = Action;
 
                 trigger OnAction();
                 var
-                    JobQueueLogEntriesList_loc: Page "cor Job Queue Log Entries List";
                     LogJobQueue_loc: Record "cor LogJobQueue";
+                    JobQueueLogEntriesList_loc: Page "cor Job Queue Log Entries List";
                 begin
                     LogJobQueue_loc.SetRange(ID, rec.ID);
                     JobQueueLogEntriesList_loc.Run();
@@ -22,6 +23,7 @@ pageextension 50244 "cor LogQueueEntryCardExt" extends 673
             {
                 ApplicationArea = all;
                 Caption = 'kej func';
+                Image = Action;
 
                 trigger OnAction();
                 var

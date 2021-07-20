@@ -34,7 +34,7 @@ page 50244 "cor Job Queue Log Entries List"
                     ToolTip = 'Specifies the value of the Earliest Start Date/Time field';
                     ApplicationArea = All;
                 }
-                field(ErrPreview; ErrPreview)
+                field(ErrPreview; Rec.ErrPreview)
                 {
                     Caption = 'Error Message Preview';
                     ApplicationArea = All;
@@ -74,7 +74,7 @@ page 50244 "cor Job Queue Log Entries List"
                     ToolTip = 'Specifies the value of the User ID field';
                     ApplicationArea = All;
                 }
-                field("cor Log Job Queue Status"; "cor Log Job Queue Status")
+                field("cor Log Job Queue Status"; Rec."cor Log Job Queue Status")
                 {
                     ToolTip = 'Specifies the value of the Status field';
                     ApplicationArea = all;
@@ -89,25 +89,6 @@ page 50244 "cor Job Queue Log Entries List"
             }
         }
 
-    }
-    actions
-    {
-        area(Creation)
-        {
-            action(TextEditor)
-            {
-                ApplicationArea = all;
-                Caption = 'TextEditor';
-                trigger OnAction();
-                var
-                // kejfunc: Page 
-                begin
-                    //  kejfunc.Run(Rec);
-                    Message('daw');
-                end;
-
-            }
-        }
     }
     trigger OnAfterGetRecord()
     var
