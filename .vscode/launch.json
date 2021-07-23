@@ -15,8 +15,8 @@
             "launchBrowser": true,
             "enableLongRunningSqlStatements": true,
             "enableSqlInformationDebugger": true,
-            "tenant": "default"
-            //"schemaUpdateMode": "ForceSync"
+            "tenant": "default",
+            "schemaUpdateMode": "ForceSync"
 
         }
     ]

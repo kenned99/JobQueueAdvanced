@@ -88,7 +88,6 @@ page 50244 "cor Job Queue Log Entries List"
                 }
             }
         }
-
     }
     trigger OnAfterGetRecord()
     var

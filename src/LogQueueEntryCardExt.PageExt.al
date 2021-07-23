@@ -15,8 +15,11 @@ pageextension 50244 "cor LogQueueEntryCardExt" extends 673
                     LogJobQueue_loc: Record "cor LogJobQueue";
                     JobQueueLogEntriesList_loc: Page "cor Job Queue Log Entries List";
                 begin
+                    // >> Sets filter to only see logs related to the task
                     LogJobQueue_loc.SetRange(ID, rec.ID);
-                    JobQueueLogEntriesList_loc.Run();
+                    JobQueueLogEntriesList_loc.SetTableView(LogJobQueue_loc);
+                    // <<
+                    JobQueueLogEntriesList_loc.RunModal();
                 end;
             }
             action("cor kej func")

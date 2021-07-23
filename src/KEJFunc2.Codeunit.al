@@ -11,16 +11,23 @@ codeunit 50245 "cor KEJFunc2"
         desc_loc: Text[250];
         Err_loc: text;
         OutStream_loc: OutStream;
+        code10_loc: Code[10];
     begin
         myInt_loc := 2 + 9;
         Message(Format(myInt_loc));
 
+
+        Sleep(80000);
+
         status_loc := Status_loc::Success;
         desc_loc := 'C50245 kørt';
         Err_loc := 'Ingen fejl';
+        code10_loc := 'CODE101';
 
         temblob_loc.CreateOutStream(OutStream_loc);
         OutStream_loc.Write('kejfunc 2 kljkljsad32080932483248932234jlsdfkljsdkljfsdf8023434jsfdljlsdfkljsfdkljskljfdsjdf803208skljdfkljsfd032fksdf70j5409v6534b0734h0986h7h45986g6g78934g78979etrueyetryeryetry');
-        JobSubtaskLog_loc.CreateLog(Rec, desc_loc, Status_loc, temblob_loc);
+        //      JobSubtaskLog_loc.CreateLog(Rec, desc_loc, Status_loc, temblob_loc);
+
+        JobSubtaskLog_loc.CreateSubtaskLog(Rec, desc_loc, Status_loc, temblob_loc, code10_loc);
     end;
 }
