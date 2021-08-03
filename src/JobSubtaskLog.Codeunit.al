@@ -90,7 +90,6 @@ codeunit 50246 "cor JobSubtaskLog"
                     LogJobQueue_loc.SetRange(ID, Rec_par.ID);
                     LogJobQueue_loc.SetRange(Code10, code10_par);
                     if LogJobQueue_loc.FindLast() then begin
-
                         LogJobQueue_loc."cor Log Job Queue Status" := Status_par;
                         LogJobQueue_loc."Expiration Date/Time" := CreateDateTime(Today, Time);
 
